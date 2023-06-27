@@ -23,7 +23,7 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="css/main.min.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
@@ -91,8 +91,8 @@
             </p>
           </li>
           <li>
-            <div class="description-icon">
-              <svg class="icon icon-clock" width="70" height="70">
+            <div class="description__icon">
+              <svg class="icon icon__clock" width="70" height="70">
                 <use xlink:href="images/icons.svg#icon-clock"></use>
               </svg>
             </div>
@@ -156,7 +156,7 @@
                 <p class="activities__description">Aplikacje mobilne</p>
               </div>
             </li>
-            <li class="activities-item">
+            <li class="activities__item">
               <img
                 class="activities__image"
                 src="images/tablet.jpg"
@@ -178,15 +178,14 @@
             <li class="team__item">
               <figure class="team__illustration">
                 <img
-                  class="team__image"
                   src="images/img1.jpg"
                   width="270"
                   height="260"
                   alt="John Doe Product Designer"
                 />
                 <figcaption class="team__description">
-                  <h3>John Doe</h3>
-                  <p class="team__name">Product Designer</p>
+                  <h3 class="team__description-name">John Doe</h3>
+                  <p class="team__description-text">Product Designer</p>
                   <ul class="social-media">
                     <li class="social-media__team" tabindex="0">
                       <a class="social-media__icon" href="#">
@@ -245,15 +244,14 @@
             <li class="team__item">
               <figure class="team__illustration">
                 <img
-                  class="team__image"
                   src="images/img2.jpg"
                   width="270"
                   height="260"
                   alt="John Doe Frontend Developer"
                 />
                 <figcaption class="team__description">
-                  <h3>John Doe</h3>
-                  <p class="team__name">Fronted Developer</p>
+                  <h3 class="team__description-name">John Doe</h3>
+                  <p class="team__description-text">Product Designer</p>
                   <ul class="social-media">
                     <li class="social-media__team">
                       <a class="social-media__icon" href="#">
@@ -269,13 +267,15 @@
                       </a>
                     </li>
                     <li class="social-media__team">
-                      <svg
-                        class="social-media__svg social-media__svg--team"
-                        width="20"
-                        height="20"
-                      >
-                        <use xlink:href="images/icons.svg#icon-twitter"></use>
-                      </svg>
+                      <a class="social-media__icon" href="#">
+                        <svg
+                          class="social-media__svg social-media__svg--team"
+                          width="20"
+                          height="20"
+                        >
+                          <use xlink:href="images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
                     </li>
                     <li class="social-media__team">
                       <a class="social-media__icon" href="#">
@@ -310,15 +310,14 @@
             <li class="team__item">
               <figure class="team__illustration">
                 <img
-                  class="team__image"
                   src="images/img3.jpg"
                   width="270"
                   height="260"
                   alt="John Doe Marketing"
                 />
                 <figcaption class="team__description">
-                  <h3>John Doe</h3>
-                  <p class="team__name">Marketing</p>
+                  <h3 class="team__description-name">John Doe</h3>
+                  <p class="team__description-text">Product Designer</p>
                   <ul class="social-media">
                     <li class="social-media__team" tabindex="0">
                       <a class="social-media__icon" href="#">
@@ -377,15 +376,14 @@
             <li class="team__item">
               <figure class="team__illustration">
                 <img
-                  class="team__image"
                   src="images/img4.jpg"
                   width="270"
                   height="260"
                   alt="John Doe UI Designer"
                 />
                 <figcaption class="team__description">
-                  <h3>John Doe</h3>
-                  <p class="team__name">UI Designer</p>
+                  <h3 class="team__description-name">John Doe</h3>
+                  <p class="team__description-text">Product Designer</p>
                   <ul class="social-media">
                     <li class="social-media__team">
                       <a class="social-media__icon" href="#">
@@ -425,7 +423,7 @@
                       </a>
                     </li>
                     <li class="social-media__team" tabindex="0">
-                      <a class="one-social-icon" href="#">
+                      <a class="social-media__icon" href="#">
                         <svg
                           class="social-media__svg social-media__svg--team"
                           width="20"

@@ -22,9 +22,7 @@
 
 .flex {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
 }
 
@@ -384,16 +382,10 @@
 } */
 
 .caption {
-  font-style: normal;
-
   font-weight: 700;
-
   font-size: 36px;
-
   line-height: 1.16;
-
   text-align: center;
-
   letter-spacing: 0.03em;
 }
 

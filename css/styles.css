@@ -380,7 +380,16 @@
 
     gap: 30px;
 } */
-
+.main-section {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/background-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+}
 .caption {
   font-weight: 700;
   font-size: 36px;

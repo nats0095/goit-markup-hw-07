@@ -570,14 +570,14 @@
           <form name="personal-info" class="form__personal-info">
             <label for="client-name" class="form__label">Imię </label>
             <div class="form__input-svg">
-              <svg class="form__icon icon-person" width="18" height="18">
+              <svg class="form__icon" width="18" height="18">
                 <use xlink:href="images/icons.svg#icon-person"></use>
               </svg>
               <input
                 type="text"
                 name="name"
                 id="client-name"
-                class="input-area"
+                class="form__input-area"
                 required
               />
             </div>
@@ -590,7 +590,7 @@
                 type="tel"
                 name="client-telephone"
                 id="client-tel"
-                class="input-area"
+                class="form__input-area"
                 required
               />
             </div>
@@ -604,11 +604,11 @@
                 type="email"
                 name="client-email"
                 id="client-email"
-                class="input-area"
+                class="form__input-area"
                 required
               />
             </div>
-            <label for="client-comment" class="form__modal">Komentarz</label>
+            <label for="client-comment" class="form__label">Komentarz</label>
             <textarea
               class="form__comment"
               name="client-comment"
